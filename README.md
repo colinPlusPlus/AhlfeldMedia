@@ -1,6 +1,6 @@
-## Jade-Sass Starter project.
+## Ahlfeld Media project.
 
-This is a Jade and Sass starter project using gulp for task automation.
+This is a Jade and Sass project using gulp for task automation.
 
 This project uses...
 
