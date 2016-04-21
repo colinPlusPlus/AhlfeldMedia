@@ -1,0 +1,60 @@
+{
+  "name": "gulp-jade-sass-starter",
+  "version": "0.1.0",
+  "description": "A Jade and Sass starter project using gulp for task automation.",
+  "main": "gulpfile.js",
+  "author": {
+    "name": "Joshua Azemoh",
+    "email": "buzzme46@gmail.com",
+    "url": "https://github.com/azemoh"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-data": "^1.2.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-sass": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azemoh/gulp-jade-sass-starter.git"
+  },
+  "keywords": [
+    "jade",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "gitHead": "b331c412db890b127d9f8da4e8b134e1f43475a1",
+  "bugs": {
+    "url": "https://github.com/azemoh/gulp-jade-sass-starter/issues"
+  },
+  "homepage": "https://github.com/azemoh/gulp-jade-sass-starter",
+  "_id": "gulp-jade-sass-starter@0.1.0",
+  "_shasum": "da23f1949534157520214f76d15754567a284ec7",
+  "_from": "gulp-jade-sass-starter@latest",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "azemoh",
+    "email": "buzzme46@gmail.com"
+  },
+  "dist": {
+    "shasum": "da23f1949534157520214f76d15754567a284ec7",
+    "tarball": "https://registry.npmjs.org/gulp-jade-sass-starter/-/gulp-jade-sass-starter-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "azemoh",
+      "email": "buzzme46@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/gulp-jade-sass-starter/-/gulp-jade-sass-starter-0.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

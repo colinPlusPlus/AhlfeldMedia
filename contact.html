@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>Ahlfeld Media</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Grayscale -->
+	<link href="https://cdn.jsdelivr.net/jquery.gray/1.3.2/gray.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/jquery.gray/1.3.2/jquery.gray.min.js" />
+	
+	<!-- Font Awesome -->
+	<!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">-->
+		
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Ahlfeld Media Inc</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                	<li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="container">
+      
+      <div class="row">
+      
+        <div class="col-lg-12">
+                <h1 class="page-header" style="font-weight: 400">Contact Us
+                    <small style="border-left:1px solid; padding-left: 10px;">We'd Love to Hear From You!</small>
+                </h1>
+                <ol class="breadcrumb" style="background-color: transparent; padding: 0px;">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Contact</li>
+                </ol>
+            </div>
+        
+        <div class="col-lg-12">
+          <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2879.184417590438!2d-79.45405889999999!3d43.81053399999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2c3bf96bad33%3A0x2bac07f508c00a18!2s10+Disera+Dr+%23260!5e0!3m2!1sen!2s!4v1399652423915" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" ></iframe>
+        </div>
+
+      </div><!-- /.row -->
+      
+      <div class="row">
+
+        <div class="col-sm-12">
+          <h3 class="pull-left contact-headers" id="greet">Let's Get In Touch!</h3>
+          <div class="clearfix"></div>
+          <hr />
+      	</div>
+ 	  </div>
+      <div class="row">
+      	<div class="col-sm-8">
+      		
+          <!--<p class="contact-p">Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>-->
+            <form role="form" method="POST" action="http://www.mainstreetcreativeco.com/contact-form-submission.php">
+	            <div class="row">
+	              <div class="form-group col-lg-4">
+	                <label for="input1">Name</label>
+	                <input type="text" name="contact_name" class="form-control" id="input1" required>
+	              </div>
+	              <div class="form-group col-lg-4">
+	                <label for="input2">Email Address</label>
+	                <input type="email" name="contact_email" class="form-control" id="input2" required>
+	              </div>
+	              <div class="form-group col-lg-4">
+	                <label for="input3">Phone Number</label>
+	                <input type="phone" name="contact_phone" class="form-control" id="input3" required>
+	              </div>
+	              <div class="clearfix"></div>
+	              <div class="form-group col-lg-12">
+	                <label for="input4">Message</label>
+	                <textarea name="contact_message" class="form-control" rows="6" id="input4" required></textarea>
+	              </div>
+	              <div class="form-group col-lg-12">
+	                <input type="hidden" name="save" value="contact">
+	                <button type="submit" class="btn btn-primary">Submit</button>
+	              </div>
+              </div>
+            </form>
+        </div>
+      
+        <div class="col-sm-4">
+          <h3 class="contact-headers">Ahlfeld Media Inc</h3>
+          <h4 class="contact-headers"></h4>
+          <p class="contact-p">
+            10 Disera Drive, Suite 260<br> Thornhill, ON L4J 0A7   
+          </p>
+          <p class="contact-p"><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: 416.567.4996</p>
+          <p class="contact-p"><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:matan@ahlfeldmedia.com">matan@ahlfeldmedia.com</a></p>
+          <p class="contact-p"><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+          
+        </div>
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+    <!-- Banner -->
+    <div class="banner">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2 class="thin">Connect with Ahlfeld Media Inc:</h2>
+                </div>
+                <div class="col-lg-5">
+                    <ul class="list-inline banner-social-buttons">
+                        <li><a href="mailto:matan@ahlfeldmedia.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                        </li>
+                        <li><a href="http://ca.linkedin.com/pub/matan-ahlfeld/b/1b9/83" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.banner -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="index.html">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="about.html">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small"><span class="pull-left">Copyright &copy; Ahlfeld 2014. All Rights Reserved</span>
+                    	<span class="pull-right">Site Designed With Love By: <a href="http://www.mainstreetcreativeco.com">Main St. Creative Co</a></span> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="font-awesome/js/jquery-1.10.2.js"></script>
+    <script src="font-awesome/js/bootstrap.js"></script>
+</body>
+</html>
