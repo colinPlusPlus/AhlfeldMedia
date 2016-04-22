@@ -2,6 +2,41 @@ extends _layouts/head
 
 block content
 	include _partials/header
+	
+	.intro-header
+		.container
+			.row
+				.col-lg-12
+					.intro-message
+						img.img-responsive.img-center(src="assets/img/AMI-Logo-White.png")
+						h1= title
+						hr.intro-divider
+						span.network-name #{address} - #[i.fa.fa-phone] #{phone}
+	- var sections = [section1, section2, section3]
+	- for (var x = 0; x < sections.length; x++)
+			if x % 2 == 0
+				div.content-section-a(id="section-#{nextChar(x)}")
+					.container
+							.row
+								.col-lg-5.col-sm-6
+									hr.section-heading-spacer
+									.clearfix
+									h2.section-heading.thin #{sections[x].heading}
+									p.lead.index-p #{sections[x].lead}
+								.col-lg-5.col-lg-offset-2.col-sm-6
+									img(class="img-responsive", src="#{sections[x].image}", alt="marketing budget" style="width:100%")
+											
+			else 
+				div.content-section-b(id="section-#{nextChar(x)}")
+					.container
+						.row
+							.col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
+								hr.section-heading-spacer
+								.clearfix
+								h2.section-heading.thin #{sections[x].heading}
+								p.lead.index-p #{sections[x].lead}
+							.col-lg-5.col-sm-pull-6.col-sm-6
+								img(class="img-responsive section-img", src="#{sections[x].image}", alt="Social Listening", style="width: 100%; max-height: 250px;")
 
 block body_end
 	script(type="text/javascript" src="assets/js/script.js")

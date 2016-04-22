@@ -1,5 +1,22 @@
 {
-	"title": "Jade-Sass Starter",
-	"welcome": "Gulp Jade Sass Starter",
+	"title": "Ahlfeld Media Inc",
+	"address" : "10 Disera Drive, Suite 260-Thornhill, ON L4J 0A7",
+	"phone" : "416.567.4996",
+	"section1" : {
+		"heading" : "A results-oriented approach to media strategy and buying.",
+		"lead"    : "Ahlfeld Media Inc. has extensive experience in delivering clients successful ROI-based campaigns.  With strong vendor relationships across all media, we are also able to negotiate media costs competitive with large agencies.",
+		"image"   : "assets/img/marketing-budget1.jpg"
+	},
+	"section2" : {
+		"heading" : "Measure, Report, Learn.",
+		"lead"    : "By ensuring the important metrics are in place prior to execution we are able to properly measure the success of the campaign.  Regular reporting throughout the campaign allows us to optimize and adjust on the fly.",
+		"image"   : "assets/img/measure-success2.jpg"
+	},
+	"section3" : {
+		"heading" : "Social Listening and Analysis",
+		"lead"    : "Understanding what your consumers are saying about your brand is integral in getting the proper message forward to them.",
+		"image"   : "assets/img/social_listening2.jpg"
+	},
+	"foo": {"bar": "hello world"},
 	"link": "github.com/azemoh"
 }
