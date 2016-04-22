@@ -11,4 +11,4 @@ nav.navbar.navbar-default.navbar-fixed-top(role="navigation")
 			ul.nav.navbar-nav
 				each item in ['Home', 'About', 'Contact']
 					li
-						a(href=item + '.html')= item
+						a(href="#{item == 'Home' ? 'index.html' : item.toLowerCase() + '.html'}")= item
